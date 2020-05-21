@@ -29,6 +29,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(toMechanism);
     }
 
-    public void goToMechanismActivity(View view) {
-    }
 }
