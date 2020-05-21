@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/main Button2"
+        android:id="@+id/mainButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
@@ -22,13 +22,14 @@
         app:layout_constraintVertical_bias="0.634" />
 
     <TextView
-        android:id="@+id/Main Button2"
+        android:id="@+id/MainButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
         android:text="Check Normal Range"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
+        android:onClick="goToNormalActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,13 +37,14 @@
         app:layout_constraintVertical_bias="0.437" />
 
     <TextView
-        android:id="@+id/main Button"
+        android:id="@+id/mainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
         android:text="Mechanism of Fever"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
+        android:onClick="goToMechanismActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +52,7 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <TextView
-        android:id="@+id/Main Title"
+        android:id="@+id/MainTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BT Tracker"
@@ -66,13 +68,14 @@
         app:layout_constraintVertical_bias="0.194" />
 
     <TextView
-        android:id="@+id/Main Button"
+        android:id="@+id/MainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
         android:text="Log Body Temperature"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
+        android:onClick="goToLogActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
