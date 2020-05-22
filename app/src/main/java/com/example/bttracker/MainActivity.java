@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(toLog);
     }
 
+    
     public void goToNormalActivity(View view){
     Intent toNormal = new Intent(this, NormalActivity.class);
     startActivity(toNormal);
