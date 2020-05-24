@@ -33,18 +33,12 @@ public class MainActivity extends AppCompatActivity {
         Intent toMechanism = new Intent(this, MechanismActivity.class);
         startActivity(toMechanism);
     }
-
-    public void goToMechanismActivity(View view) {
-    }
+    
 
     public void goToMainActivity(View view) {
-        Intent toMain = new Intent(this, MainActivity.class);
-        startActivity(toMain);
         Intent toMainActivity = new Intent((String) Action_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
 
         startActivity(toMainActivity);
     }
 
-    private class Action_VIEW {
-    }
 }
