@@ -9,8 +9,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Object Action_VIEW
-            ;
+
+    private Object Action_VIEW;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void goToMainActivity(View view) {
-        Intent toMainActivity = new Intent((String) Action_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
+        Intent toMainActivity = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
 
         startActivity(toMainActivity);
     }
 
-    private class Action_VIEW {
+    public void goToMechanismActivity(View view) {
     }
 }
