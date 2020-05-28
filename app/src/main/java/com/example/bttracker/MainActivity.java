@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
     startActivity(toNormal);
     }
 
-    public void goToMehanismactivity(View view){
+    public void goToMehanismActivity(View view){
         Intent toMechanism = new Intent(this, MechanismActivity.class);
         startActivity(toMechanism);
     }
-    
+
 
     public void goToMainActivity(View view) {
         Intent toMainActivity = new Intent((String) Action_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
@@ -41,4 +41,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(toMainActivity);
     }
 
+    private class Action_VIEW {
+    }
 }
