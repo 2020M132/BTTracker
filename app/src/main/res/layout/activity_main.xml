@@ -60,9 +60,11 @@
             android:onClick="goToLogActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:id="@+id/view2"
